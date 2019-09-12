@@ -44,7 +44,7 @@ class User extends Authenticatable
 
     public function projects()
     {
-        return $this->hasOne('App\Projects');
+        return $this->hasOne(Projects::class);
     }
 
 }
