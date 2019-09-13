@@ -146,7 +146,7 @@ class ProjectController extends Controller
 		$user = User::find($user->id);
 
 
-        $user->projects->concurrent = $request->input('concurrent');
+        // $user->projects->concurrent = $request->input('concurrent');
         $user->projects->equipe = $request->input('equipe');
 
         
